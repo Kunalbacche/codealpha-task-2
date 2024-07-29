@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <div class="filter_buttons">
+        <button class="active" data-name="all">Show all</button>
+        <button data-name="Phones">Phones</button>
+        <button data-name="Cloths">Cloths</button>
+        <button data-name="Shoes">Shoes</button>
+
+      </div>   
+      <div class="filterable_cards">
+        <div class="card" data-name="Phones">
+            <img src="phone-1.jpg"  alt="phone"/>
+            <div class="card_body">
+                <h6 class="card_title"> Name: Redmi7 pro</h6>
+                <p class="card_text">Lorem ipsum dolor...</p>
+                <p class="card_text" style="font-size: 25px;">Price: 10,000</p>
+            </div>
+        </div>
+
+        <div class="card" data-name="Phones">
+            <img src="phone-2.jpg" alt="phone"/>
+            <div class="card_body">
+                <h6 class="card_title"> Name: i phone</h6>
+                <p class="card_text">Lorem ipsum dolor...</p>
+               
+            </div>
+        </div>
+
+        <div class="card" data-name="Cloths">
+            <img src="cloth-1.jpg" alt="cloth"/>
+            <div class="card_body">
+                <h6 class="card_title"> Name: T shirt</h6>
+                <p class="card_text">Lorem ipsum dolor...</p>
+               
+            </div>
+        </div>
+
+        <div class="card" data-name="Cloths">
+            <img src="cloth-2.jpg" alt="cloth"/>
+            <div class="card_body">
+                <h6 class="card_title"> Name: Shirts</h6>
+                <p class="card_text">Lorem ipsum dolor...</p>
+               
+            </div>
+        </div>
+
+        <div class="card" data-name="Cloths">
+            <img src="cloth-3.jpg" alt="cloth"/>
+            <div class="card_body">
+                <h6 class="card_title"> Name: Baneen</h6>
+                <p class="card_text">Lorem ipsum dolor...</p>
+              
+        </div>
+
+        <div class="card" data-name="Shoes">
+            <img src="shoe-1.jpg" alt="shoe"/>
+            <div class="card_body">
+                <h6 class="card_title"> Name:sport shoe</h6>
+                <p class="card_text">Lorem ipsum dolor...</p>
+           
+            </div>
+        </div>
+
+        <div class="card" data-name="Shoes">
+            <img src="shoe-2.jpg" alt="shoe"/>
+            <div class="card_body">
+                <h6 class="card_title"> Name: stylish shoe</h6>
+                <p class="card_text">stylish jordan...</p>
+               
+            </div>
+        </div>
+
+
+      </div>
+    </div>
+
+<!-- 2 -->
+    <div class="navbar">
+
+        <div class="a">
+         <h1>Image Gallary</h1>
+         
+         
+        </div>
+     </div>
+     <div class="full-img" id="fullImgBox">
+ 
+         <img src="img1.jpg" id="fullImg">
+         <span onclick="closeFullImg()">X</span>
+     </div>
+     
+     <div class="img-gallary">
+ 
+         <img src="img1.jpg" onclick="openFullImg(this.src)">
+         <img src="img2.jpg" onclick="openFullImg(this.src)">
+         <img src="img3.jpg" onclick="openFullImg(this.src)">
+         <img src="img4.jpg" onclick="openFullImg(this.src)">
+         <img src="img5.jpg" onclick="openFullImg(this.src)">
+         <img src="img6.jpg" onclick="openFullImg(this.src)">
+         <img src="img7.jpg" onclick="openFullImg(this.src)">
+         <img src="img8.jpg" onclick="openFullImg(this.src)">
+     </div>
+ 
+    
+
+     <div class="footer">
+        <p >© 1996-2023, Image Gallary.com, Inc. or its affiliates</p>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
